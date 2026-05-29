@@ -2,4 +2,7 @@ import ReactDOM from "react-dom/client"
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
-root.render(<h1>Hello world!</h1>)
+root.render(<ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+</ul>)
